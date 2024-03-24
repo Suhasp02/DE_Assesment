@@ -104,7 +104,7 @@ def export_report_data():
         cur.execute(sql.SQL("SELECT * FROM {table}").format(table=sql.Identifier(recon_view_name)))
         data = cur.fetchall()  # Fetch all results
         df = pd.DataFrame(data, columns=[col.name for col in cur.description])
-        df.to_csv(rep_path+'recon_report1.csv', index=False)
+        df.to_csv(rep_path+'recon_report.csv', index=False)
     except Exception as e:
         logging.info(f"Error executing query: {e}")
         exit()
@@ -114,7 +114,7 @@ def export_report_data():
         cur.execute(sql.SQL("SELECT * FROM {table}").format(table=sql.Identifier(report_name)))
         data1 = cur.fetchall()  # Fetch all results
         df1 = pd.DataFrame(data1, columns=[col.name for col in cur.description])
-        df1.to_csv(rep_path+'best_fund_report1.csv', index=False)
+        df1.to_csv(rep_path+'best_fund_report.csv', index=False)
     except Exception as e:
         logging.info(f"Error executing query: {e}")
         exit()
