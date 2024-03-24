@@ -1,0 +1,528 @@
+2024-03-24 23:36:37,230 - INFO - YAML file opened
+2024-03-24 23:36:37,230 - INFO - Connected to database: gic_mrkts UserName : postgres
+2024-03-24 23:36:37,272 - INFO - Table exists in the database.
+2024-03-24 23:36:37,286 - INFO - Splitting the filename: Fund Whitestone.30-06-2023 - details.csv to extract FundName and Date
+2024-03-24 23:36:37,286 - INFO - Filename: Fund Whitestone.30-06-2023 - details.csv 2023-06-30 matches pattern1
+2024-03-24 23:36:37,294 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Fund Whitestone.30-06-2023 - details.csv into DB
+2024-03-24 23:36:37,340 - INFO - Number of records loaded : 77 into DB
+2024-03-24 23:36:37,342 - INFO - Splitting the filename: rpt-Catalysm.2022-10-31.csv to extract FundName and Date
+2024-03-24 23:36:37,342 - INFO - Filename: rpt-Catalysm.2022-10-31.csv matches pattern3
+2024-03-24 23:36:37,343 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/rpt-Catalysm.2022-10-31.csv into DB
+2024-03-24 23:36:37,351 - INFO - Number of records loaded : 82 into DB
+2024-03-24 23:36:37,353 - INFO - Splitting the filename: Belaware.28_02_2023.csv to extract FundName and Date
+2024-03-24 23:36:37,353 - INFO - Filename: Belaware.28_02_2023.csv matches pattern2
+2024-03-24 23:36:37,354 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Belaware.28_02_2023.csv into DB
+2024-03-24 23:36:37,362 - INFO - Number of records loaded : 88 into DB
+2024-03-24 23:36:37,363 - INFO - Splitting the filename: Fund Whitestone.31-10-2022 - details.csv to extract FundName and Date
+2024-03-24 23:36:37,363 - INFO - Filename: Fund Whitestone.31-10-2022 - details.csv 2022-10-31 matches pattern1
+2024-03-24 23:36:37,364 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Fund Whitestone.31-10-2022 - details.csv into DB
+2024-03-24 23:36:37,371 - INFO - Number of records loaded : 77 into DB
+2024-03-24 23:36:37,373 - INFO - Splitting the filename: TT_monthly_Trustmind.20230831.csv to extract FundName and Date
+2024-03-24 23:36:37,373 - INFO - Filename: TT_monthly_Trustmind.20230831.csv matches pattern4
+2024-03-24 23:36:37,374 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/TT_monthly_Trustmind.20230831.csv into DB
+2024-03-24 23:36:37,381 - INFO - Number of records loaded : 75 into DB
+2024-03-24 23:36:37,382 - INFO - Splitting the filename: Fund Whitestone.31-01-2023 - details.csv to extract FundName and Date
+2024-03-24 23:36:37,382 - INFO - Filename: Fund Whitestone.31-01-2023 - details.csv 2023-01-31 matches pattern1
+2024-03-24 23:36:37,383 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Fund Whitestone.31-01-2023 - details.csv into DB
+2024-03-24 23:36:37,390 - INFO - Number of records loaded : 77 into DB
+2024-03-24 23:36:37,392 - INFO - Splitting the filename: Report-of-Gohen.07-31-2023.csv to extract FundName and Date
+2024-03-24 23:36:37,392 - INFO - Filename: Report-of-Gohen.07-31-2023.csv 2023-07-31 matches pattern1
+2024-03-24 23:36:37,393 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Report-of-Gohen.07-31-2023.csv into DB
+2024-03-24 23:36:37,400 - INFO - Number of records loaded : 71 into DB
+2024-03-24 23:36:37,402 - INFO - Splitting the filename: Virtous.05-31-2023 - securities.csv to extract FundName and Date
+2024-03-24 23:36:37,402 - INFO - Filename: Virtous.05-31-2023 - securities.csv 2023-05-31 matches pattern1
+2024-03-24 23:36:37,403 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Virtous.05-31-2023 - securities.csv into DB
+2024-03-24 23:36:37,409 - INFO - Number of records loaded : 71 into DB
+2024-03-24 23:36:37,411 - INFO - Splitting the filename: Leeder.03_31_2023.csv to extract FundName and Date
+2024-03-24 23:36:37,411 - INFO - Filename: Leeder.03_31_2023.csv matches pattern2
+2024-03-24 23:36:37,412 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Leeder.03_31_2023.csv into DB
+2024-03-24 23:36:37,419 - INFO - Number of records loaded : 87 into DB
+2024-03-24 23:36:37,421 - INFO - Splitting the filename: mend-report Wallington.30_06_2023.csv to extract FundName and Date
+2024-03-24 23:36:37,421 - INFO - Filename: mend-report Wallington.30_06_2023.csv matches pattern2
+2024-03-24 23:36:37,422 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/mend-report Wallington.30_06_2023.csv into DB
+2024-03-24 23:36:37,429 - INFO - Number of records loaded : 76 into DB
+2024-03-24 23:36:37,431 - INFO - Splitting the filename: rpt-Catalysm.2023-04-30.csv to extract FundName and Date
+2024-03-24 23:36:37,431 - INFO - Filename: rpt-Catalysm.2023-04-30.csv matches pattern3
+2024-03-24 23:36:37,431 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/rpt-Catalysm.2023-04-30.csv into DB
+2024-03-24 23:36:37,438 - INFO - Number of records loaded : 82 into DB
+2024-03-24 23:36:37,440 - INFO - Splitting the filename: Virtous.01-31-2023 - securities.csv to extract FundName and Date
+2024-03-24 23:36:37,440 - INFO - Filename: Virtous.01-31-2023 - securities.csv 2023-01-31 matches pattern1
+2024-03-24 23:36:37,441 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Virtous.01-31-2023 - securities.csv into DB
+2024-03-24 23:36:37,448 - INFO - Number of records loaded : 71 into DB
+2024-03-24 23:36:37,450 - INFO - Splitting the filename: Magnum.31-10-2022.csv to extract FundName and Date
+2024-03-24 23:36:37,450 - INFO - Filename: Magnum.31-10-2022.csv 2022-10-31 matches pattern1
+2024-03-24 23:36:37,451 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Magnum.31-10-2022.csv into DB
+2024-03-24 23:36:37,458 - INFO - Number of records loaded : 87 into DB
+2024-03-24 23:36:37,460 - INFO - Splitting the filename: Report-of-Gohen.12-31-2022.csv to extract FundName and Date
+2024-03-24 23:36:37,460 - INFO - Filename: Report-of-Gohen.12-31-2022.csv 2022-12-31 matches pattern1
+2024-03-24 23:36:37,460 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Report-of-Gohen.12-31-2022.csv into DB
+2024-03-24 23:36:37,467 - INFO - Number of records loaded : 71 into DB
+2024-03-24 23:36:37,469 - INFO - Splitting the filename: Virtous.12-31-2022 - securities.csv to extract FundName and Date
+2024-03-24 23:36:37,469 - INFO - Filename: Virtous.12-31-2022 - securities.csv 2022-12-31 matches pattern1
+2024-03-24 23:36:37,469 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Virtous.12-31-2022 - securities.csv into DB
+2024-03-24 23:36:37,476 - INFO - Number of records loaded : 71 into DB
+2024-03-24 23:36:37,478 - INFO - Splitting the filename: mend-report Wallington.31_05_2023.csv to extract FundName and Date
+2024-03-24 23:36:37,478 - INFO - Filename: mend-report Wallington.31_05_2023.csv matches pattern2
+2024-03-24 23:36:37,478 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/mend-report Wallington.31_05_2023.csv into DB
+2024-03-24 23:36:37,485 - INFO - Number of records loaded : 76 into DB
+2024-03-24 23:36:37,487 - INFO - Splitting the filename: rpt-Catalysm.2023-08-31.csv to extract FundName and Date
+2024-03-24 23:36:37,487 - INFO - Filename: rpt-Catalysm.2023-08-31.csv matches pattern3
+2024-03-24 23:36:37,488 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/rpt-Catalysm.2023-08-31.csv into DB
+2024-03-24 23:36:37,495 - INFO - Number of records loaded : 82 into DB
+2024-03-24 23:36:37,497 - INFO - Splitting the filename: rpt-Catalysm.2023-06-30.csv to extract FundName and Date
+2024-03-24 23:36:37,497 - INFO - Filename: rpt-Catalysm.2023-06-30.csv matches pattern3
+2024-03-24 23:36:37,498 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/rpt-Catalysm.2023-06-30.csv into DB
+2024-03-24 23:36:37,505 - INFO - Number of records loaded : 82 into DB
+2024-03-24 23:36:37,506 - INFO - Splitting the filename: Leeder.06_30_2023.csv to extract FundName and Date
+2024-03-24 23:36:37,506 - INFO - Filename: Leeder.06_30_2023.csv matches pattern2
+2024-03-24 23:36:37,507 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Leeder.06_30_2023.csv into DB
+2024-03-24 23:36:37,514 - INFO - Number of records loaded : 87 into DB
+2024-03-24 23:36:37,516 - INFO - Splitting the filename: Belaware.31_08_2022.csv to extract FundName and Date
+2024-03-24 23:36:37,516 - INFO - Filename: Belaware.31_08_2022.csv matches pattern2
+2024-03-24 23:36:37,517 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Belaware.31_08_2022.csv into DB
+2024-03-24 23:36:37,524 - INFO - Number of records loaded : 88 into DB
+2024-03-24 23:36:37,526 - INFO - Splitting the filename: Applebead.28-02-2023 breakdown.csv to extract FundName and Date
+2024-03-24 23:36:37,526 - INFO - Filename: Applebead.28-02-2023 breakdown.csv 2023-02-28 matches pattern1
+2024-03-24 23:36:37,526 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Applebead.28-02-2023 breakdown.csv into DB
+2024-03-24 23:36:37,533 - INFO - Number of records loaded : 79 into DB
+2024-03-24 23:36:37,535 - INFO - Splitting the filename: Belaware.31_08_2023.csv to extract FundName and Date
+2024-03-24 23:36:37,535 - INFO - Filename: Belaware.31_08_2023.csv matches pattern2
+2024-03-24 23:36:37,536 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Belaware.31_08_2023.csv into DB
+2024-03-24 23:36:37,543 - INFO - Number of records loaded : 88 into DB
+2024-03-24 23:36:37,545 - INFO - Splitting the filename: Virtous.08-31-2022 - securities.csv to extract FundName and Date
+2024-03-24 23:36:37,545 - INFO - Filename: Virtous.08-31-2022 - securities.csv 2022-08-31 matches pattern1
+2024-03-24 23:36:37,546 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Virtous.08-31-2022 - securities.csv into DB
+2024-03-24 23:36:37,552 - INFO - Number of records loaded : 71 into DB
+2024-03-24 23:36:37,554 - INFO - Splitting the filename: TT_monthly_Trustmind.20230228.csv to extract FundName and Date
+2024-03-24 23:36:37,554 - INFO - Filename: TT_monthly_Trustmind.20230228.csv matches pattern4
+2024-03-24 23:36:37,555 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/TT_monthly_Trustmind.20230228.csv into DB
+2024-03-24 23:36:37,562 - INFO - Number of records loaded : 75 into DB
+2024-03-24 23:36:37,564 - INFO - Splitting the filename: Applebead.31-12-2022 breakdown.csv to extract FundName and Date
+2024-03-24 23:36:37,564 - INFO - Filename: Applebead.31-12-2022 breakdown.csv 2022-12-31 matches pattern1
+2024-03-24 23:36:37,565 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Applebead.31-12-2022 breakdown.csv into DB
+2024-03-24 23:36:37,572 - INFO - Number of records loaded : 79 into DB
+2024-03-24 23:36:37,574 - INFO - Splitting the filename: Magnum.31-07-2023.csv to extract FundName and Date
+2024-03-24 23:36:37,574 - INFO - Filename: Magnum.31-07-2023.csv 2023-07-31 matches pattern1
+2024-03-24 23:36:37,575 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Magnum.31-07-2023.csv into DB
+2024-03-24 23:36:37,583 - INFO - Number of records loaded : 87 into DB
+2024-03-24 23:36:37,584 - INFO - Splitting the filename: rpt-Catalysm.2022-12-31.csv to extract FundName and Date
+2024-03-24 23:36:37,584 - INFO - Filename: rpt-Catalysm.2022-12-31.csv matches pattern3
+2024-03-24 23:36:37,585 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/rpt-Catalysm.2022-12-31.csv into DB
+2024-03-24 23:36:37,592 - INFO - Number of records loaded : 82 into DB
+2024-03-24 23:36:37,594 - INFO - Splitting the filename: Virtous.06-30-2023 - securities.csv to extract FundName and Date
+2024-03-24 23:36:37,594 - INFO - Filename: Virtous.06-30-2023 - securities.csv 2023-06-30 matches pattern1
+2024-03-24 23:36:37,595 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Virtous.06-30-2023 - securities.csv into DB
+2024-03-24 23:36:37,601 - INFO - Number of records loaded : 71 into DB
+2024-03-24 23:36:37,603 - INFO - Splitting the filename: mend-report Wallington.31_12_2022.csv to extract FundName and Date
+2024-03-24 23:36:37,603 - INFO - Filename: mend-report Wallington.31_12_2022.csv matches pattern2
+2024-03-24 23:36:37,604 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/mend-report Wallington.31_12_2022.csv into DB
+2024-03-24 23:36:37,611 - INFO - Number of records loaded : 76 into DB
+2024-03-24 23:36:37,613 - INFO - Splitting the filename: Applebead.30-04-2023 breakdown.csv to extract FundName and Date
+2024-03-24 23:36:37,613 - INFO - Filename: Applebead.30-04-2023 breakdown.csv 2023-04-30 matches pattern1
+2024-03-24 23:36:37,613 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Applebead.30-04-2023 breakdown.csv into DB
+2024-03-24 23:36:37,621 - INFO - Number of records loaded : 79 into DB
+2024-03-24 23:36:37,622 - INFO - Splitting the filename: Magnum.30-04-2023.csv to extract FundName and Date
+2024-03-24 23:36:37,622 - INFO - Filename: Magnum.30-04-2023.csv 2023-04-30 matches pattern1
+2024-03-24 23:36:37,623 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Magnum.30-04-2023.csv into DB
+2024-03-24 23:36:37,630 - INFO - Number of records loaded : 87 into DB
+2024-03-24 23:36:37,671 - INFO - Splitting the filename: TT_monthly_Trustmind.20220831.csv to extract FundName and Date
+2024-03-24 23:36:37,671 - INFO - Filename: TT_monthly_Trustmind.20220831.csv matches pattern4
+2024-03-24 23:36:37,672 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/TT_monthly_Trustmind.20220831.csv into DB
+2024-03-24 23:36:37,682 - INFO - Number of records loaded : 75 into DB
+2024-03-24 23:36:37,684 - INFO - Splitting the filename: Virtous.11-30-2022 - securities.csv to extract FundName and Date
+2024-03-24 23:36:37,684 - INFO - Filename: Virtous.11-30-2022 - securities.csv 2022-11-30 matches pattern1
+2024-03-24 23:36:37,685 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Virtous.11-30-2022 - securities.csv into DB
+2024-03-24 23:36:37,692 - INFO - Number of records loaded : 71 into DB
+2024-03-24 23:36:37,694 - INFO - Splitting the filename: Fund Whitestone.30-09-2022 - details.csv to extract FundName and Date
+2024-03-24 23:36:37,694 - INFO - Filename: Fund Whitestone.30-09-2022 - details.csv 2022-09-30 matches pattern1
+2024-03-24 23:36:37,695 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Fund Whitestone.30-09-2022 - details.csv into DB
+2024-03-24 23:36:37,704 - INFO - Number of records loaded : 77 into DB
+2024-03-24 23:36:37,706 - INFO - Splitting the filename: mend-report Wallington.30_11_2022.csv to extract FundName and Date
+2024-03-24 23:36:37,706 - INFO - Filename: mend-report Wallington.30_11_2022.csv matches pattern2
+2024-03-24 23:36:37,707 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/mend-report Wallington.30_11_2022.csv into DB
+2024-03-24 23:36:37,715 - INFO - Number of records loaded : 76 into DB
+2024-03-24 23:36:37,717 - INFO - Splitting the filename: Belaware.31_03_2023.csv to extract FundName and Date
+2024-03-24 23:36:37,717 - INFO - Filename: Belaware.31_03_2023.csv matches pattern2
+2024-03-24 23:36:37,718 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Belaware.31_03_2023.csv into DB
+2024-03-24 23:36:37,725 - INFO - Number of records loaded : 88 into DB
+2024-03-24 23:36:37,727 - INFO - Splitting the filename: Applebead.31-03-2023 breakdown.csv to extract FundName and Date
+2024-03-24 23:36:37,727 - INFO - Filename: Applebead.31-03-2023 breakdown.csv 2023-03-31 matches pattern1
+2024-03-24 23:36:37,728 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Applebead.31-03-2023 breakdown.csv into DB
+2024-03-24 23:36:37,735 - INFO - Number of records loaded : 79 into DB
+2024-03-24 23:36:37,736 - INFO - Splitting the filename: TT_monthly_Trustmind.20221130.csv to extract FundName and Date
+2024-03-24 23:36:37,736 - INFO - Filename: TT_monthly_Trustmind.20221130.csv matches pattern4
+2024-03-24 23:36:37,737 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/TT_monthly_Trustmind.20221130.csv into DB
+2024-03-24 23:36:37,743 - INFO - Number of records loaded : 75 into DB
+2024-03-24 23:36:37,745 - INFO - Splitting the filename: Fund Whitestone.31-08-2022 - details.csv to extract FundName and Date
+2024-03-24 23:36:37,745 - INFO - Filename: Fund Whitestone.31-08-2022 - details.csv 2022-08-31 matches pattern1
+2024-03-24 23:36:37,746 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Fund Whitestone.31-08-2022 - details.csv into DB
+2024-03-24 23:36:37,753 - INFO - Number of records loaded : 77 into DB
+2024-03-24 23:36:37,755 - INFO - Splitting the filename: Magnum.30-09-2022.csv to extract FundName and Date
+2024-03-24 23:36:37,755 - INFO - Filename: Magnum.30-09-2022.csv 2022-09-30 matches pattern1
+2024-03-24 23:36:37,756 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Magnum.30-09-2022.csv into DB
+2024-03-24 23:36:37,763 - INFO - Number of records loaded : 87 into DB
+2024-03-24 23:36:37,765 - INFO - Splitting the filename: mend-report Wallington.28_02_2023.csv to extract FundName and Date
+2024-03-24 23:36:37,765 - INFO - Filename: mend-report Wallington.28_02_2023.csv matches pattern2
+2024-03-24 23:36:37,766 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/mend-report Wallington.28_02_2023.csv into DB
+2024-03-24 23:36:37,773 - INFO - Number of records loaded : 76 into DB
+2024-03-24 23:36:37,774 - INFO - Splitting the filename: Report-of-Gohen.01-31-2023.csv to extract FundName and Date
+2024-03-24 23:36:37,774 - INFO - Filename: Report-of-Gohen.01-31-2023.csv 2023-01-31 matches pattern1
+2024-03-24 23:36:37,775 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Report-of-Gohen.01-31-2023.csv into DB
+2024-03-24 23:36:37,781 - INFO - Number of records loaded : 71 into DB
+2024-03-24 23:36:37,783 - INFO - Splitting the filename: Applebead.31-08-2023 breakdown.csv to extract FundName and Date
+2024-03-24 23:36:37,783 - INFO - Filename: Applebead.31-08-2023 breakdown.csv 2023-08-31 matches pattern1
+2024-03-24 23:36:37,784 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Applebead.31-08-2023 breakdown.csv into DB
+2024-03-24 23:36:37,791 - INFO - Number of records loaded : 79 into DB
+2024-03-24 23:36:37,793 - INFO - Splitting the filename: Applebead.31-05-2023 breakdown.csv to extract FundName and Date
+2024-03-24 23:36:37,793 - INFO - Filename: Applebead.31-05-2023 breakdown.csv 2023-05-31 matches pattern1
+2024-03-24 23:36:37,793 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Applebead.31-05-2023 breakdown.csv into DB
+2024-03-24 23:36:37,800 - INFO - Number of records loaded : 79 into DB
+2024-03-24 23:36:37,802 - INFO - Splitting the filename: Leeder.10_31_2022.csv to extract FundName and Date
+2024-03-24 23:36:37,802 - INFO - Filename: Leeder.10_31_2022.csv matches pattern2
+2024-03-24 23:36:37,803 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Leeder.10_31_2022.csv into DB
+2024-03-24 23:36:37,810 - INFO - Number of records loaded : 87 into DB
+2024-03-24 23:36:37,812 - INFO - Splitting the filename: Leeder.02_28_2023.csv to extract FundName and Date
+2024-03-24 23:36:37,812 - INFO - Filename: Leeder.02_28_2023.csv matches pattern2
+2024-03-24 23:36:37,813 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Leeder.02_28_2023.csv into DB
+2024-03-24 23:36:37,820 - INFO - Number of records loaded : 87 into DB
+2024-03-24 23:36:37,822 - INFO - Splitting the filename: Magnum.31-01-2023.csv to extract FundName and Date
+2024-03-24 23:36:37,822 - INFO - Filename: Magnum.31-01-2023.csv 2023-01-31 matches pattern1
+2024-03-24 23:36:37,823 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Magnum.31-01-2023.csv into DB
+2024-03-24 23:36:37,830 - INFO - Number of records loaded : 87 into DB
+2024-03-24 23:36:37,832 - INFO - Splitting the filename: Virtous.02-28-2023 - securities.csv to extract FundName and Date
+2024-03-24 23:36:37,832 - INFO - Filename: Virtous.02-28-2023 - securities.csv 2023-02-28 matches pattern1
+2024-03-24 23:36:37,832 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Virtous.02-28-2023 - securities.csv into DB
+2024-03-24 23:36:37,839 - INFO - Number of records loaded : 71 into DB
+2024-03-24 23:36:37,841 - INFO - Splitting the filename: Belaware.30_06_2023.csv to extract FundName and Date
+2024-03-24 23:36:37,841 - INFO - Filename: Belaware.30_06_2023.csv matches pattern2
+2024-03-24 23:36:37,842 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Belaware.30_06_2023.csv into DB
+2024-03-24 23:36:37,850 - INFO - Number of records loaded : 88 into DB
+2024-03-24 23:36:37,851 - INFO - Splitting the filename: Report-of-Gohen.08-31-2023.csv to extract FundName and Date
+2024-03-24 23:36:37,852 - INFO - Filename: Report-of-Gohen.08-31-2023.csv 2023-08-31 matches pattern1
+2024-03-24 23:36:37,852 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Report-of-Gohen.08-31-2023.csv into DB
+2024-03-24 23:36:37,859 - INFO - Number of records loaded : 71 into DB
+2024-03-24 23:36:37,861 - INFO - Splitting the filename: Leeder.05_31_2023.csv to extract FundName and Date
+2024-03-24 23:36:37,861 - INFO - Filename: Leeder.05_31_2023.csv matches pattern2
+2024-03-24 23:36:37,862 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Leeder.05_31_2023.csv into DB
+2024-03-24 23:36:37,869 - INFO - Number of records loaded : 87 into DB
+2024-03-24 23:36:37,870 - INFO - Splitting the filename: Report-of-Gohen.08-31-2022.csv to extract FundName and Date
+2024-03-24 23:36:37,870 - INFO - Filename: Report-of-Gohen.08-31-2022.csv 2022-08-31 matches pattern1
+2024-03-24 23:36:37,871 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Report-of-Gohen.08-31-2022.csv into DB
+2024-03-24 23:36:37,878 - INFO - Number of records loaded : 71 into DB
+2024-03-24 23:36:37,880 - INFO - Splitting the filename: rpt-Catalysm.2022-08-31.csv to extract FundName and Date
+2024-03-24 23:36:37,880 - INFO - Filename: rpt-Catalysm.2022-08-31.csv matches pattern3
+2024-03-24 23:36:37,880 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/rpt-Catalysm.2022-08-31.csv into DB
+2024-03-24 23:36:37,887 - INFO - Number of records loaded : 82 into DB
+2024-03-24 23:36:37,889 - INFO - Splitting the filename: Belaware.31_05_2023.csv to extract FundName and Date
+2024-03-24 23:36:37,889 - INFO - Filename: Belaware.31_05_2023.csv matches pattern2
+2024-03-24 23:36:37,890 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Belaware.31_05_2023.csv into DB
+2024-03-24 23:36:37,898 - INFO - Number of records loaded : 88 into DB
+2024-03-24 23:36:37,899 - INFO - Splitting the filename: Report-of-Gohen.11-30-2022.csv to extract FundName and Date
+2024-03-24 23:36:37,899 - INFO - Filename: Report-of-Gohen.11-30-2022.csv 2022-11-30 matches pattern1
+2024-03-24 23:36:37,900 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Report-of-Gohen.11-30-2022.csv into DB
+2024-03-24 23:36:37,907 - INFO - Number of records loaded : 71 into DB
+2024-03-24 23:36:37,908 - INFO - Splitting the filename: TT_monthly_Trustmind.20220930.csv to extract FundName and Date
+2024-03-24 23:36:37,909 - INFO - Filename: TT_monthly_Trustmind.20220930.csv matches pattern4
+2024-03-24 23:36:37,909 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/TT_monthly_Trustmind.20220930.csv into DB
+2024-03-24 23:36:37,916 - INFO - Number of records loaded : 75 into DB
+2024-03-24 23:36:37,917 - INFO - Splitting the filename: mend-report Wallington.31_08_2022.csv to extract FundName and Date
+2024-03-24 23:36:37,918 - INFO - Filename: mend-report Wallington.31_08_2022.csv matches pattern2
+2024-03-24 23:36:37,918 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/mend-report Wallington.31_08_2022.csv into DB
+2024-03-24 23:36:37,925 - INFO - Number of records loaded : 76 into DB
+2024-03-24 23:36:37,927 - INFO - Splitting the filename: Virtous.08-31-2023 - securities.csv to extract FundName and Date
+2024-03-24 23:36:37,927 - INFO - Filename: Virtous.08-31-2023 - securities.csv 2023-08-31 matches pattern1
+2024-03-24 23:36:37,928 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Virtous.08-31-2023 - securities.csv into DB
+2024-03-24 23:36:37,934 - INFO - Number of records loaded : 71 into DB
+2024-03-24 23:36:37,936 - INFO - Splitting the filename: TT_monthly_Trustmind.20221031.csv to extract FundName and Date
+2024-03-24 23:36:37,936 - INFO - Filename: TT_monthly_Trustmind.20221031.csv matches pattern4
+2024-03-24 23:36:37,936 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/TT_monthly_Trustmind.20221031.csv into DB
+2024-03-24 23:36:37,943 - INFO - Number of records loaded : 75 into DB
+2024-03-24 23:36:37,945 - INFO - Splitting the filename: mend-report Wallington.31_08_2023.csv to extract FundName and Date
+2024-03-24 23:36:37,945 - INFO - Filename: mend-report Wallington.31_08_2023.csv matches pattern2
+2024-03-24 23:36:37,945 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/mend-report Wallington.31_08_2023.csv into DB
+2024-03-24 23:36:37,953 - INFO - Number of records loaded : 76 into DB
+2024-03-24 23:36:37,954 - INFO - Splitting the filename: Report-of-Gohen.04-30-2023.csv to extract FundName and Date
+2024-03-24 23:36:37,954 - INFO - Filename: Report-of-Gohen.04-30-2023.csv 2023-04-30 matches pattern1
+2024-03-24 23:36:37,955 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Report-of-Gohen.04-30-2023.csv into DB
+2024-03-24 23:36:37,962 - INFO - Number of records loaded : 71 into DB
+2024-03-24 23:36:37,963 - INFO - Splitting the filename: Leeder.09_30_2022.csv to extract FundName and Date
+2024-03-24 23:36:37,964 - INFO - Filename: Leeder.09_30_2022.csv matches pattern2
+2024-03-24 23:36:37,964 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Leeder.09_30_2022.csv into DB
+2024-03-24 23:36:37,972 - INFO - Number of records loaded : 87 into DB
+2024-03-24 23:36:37,974 - INFO - Splitting the filename: Belaware.31_12_2022.csv to extract FundName and Date
+2024-03-24 23:36:37,974 - INFO - Filename: Belaware.31_12_2022.csv matches pattern2
+2024-03-24 23:36:37,974 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Belaware.31_12_2022.csv into DB
+2024-03-24 23:36:37,982 - INFO - Number of records loaded : 88 into DB
+2024-03-24 23:36:37,983 - INFO - Splitting the filename: TT_monthly_Trustmind.20221231.csv to extract FundName and Date
+2024-03-24 23:36:37,983 - INFO - Filename: TT_monthly_Trustmind.20221231.csv matches pattern4
+2024-03-24 23:36:37,984 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/TT_monthly_Trustmind.20221231.csv into DB
+2024-03-24 23:36:37,991 - INFO - Number of records loaded : 75 into DB
+2024-03-24 23:36:37,992 - INFO - Splitting the filename: Fund Whitestone.30-11-2022 - details.csv to extract FundName and Date
+2024-03-24 23:36:37,992 - INFO - Filename: Fund Whitestone.30-11-2022 - details.csv 2022-11-30 matches pattern1
+2024-03-24 23:36:37,993 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Fund Whitestone.30-11-2022 - details.csv into DB
+2024-03-24 23:36:38,000 - INFO - Number of records loaded : 77 into DB
+2024-03-24 23:36:38,002 - INFO - Splitting the filename: mend-report Wallington.31_03_2023.csv to extract FundName and Date
+2024-03-24 23:36:38,002 - INFO - Filename: mend-report Wallington.31_03_2023.csv matches pattern2
+2024-03-24 23:36:38,003 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/mend-report Wallington.31_03_2023.csv into DB
+2024-03-24 23:36:38,010 - INFO - Number of records loaded : 76 into DB
+2024-03-24 23:36:38,011 - INFO - Splitting the filename: Belaware.30_11_2022.csv to extract FundName and Date
+2024-03-24 23:36:38,011 - INFO - Filename: Belaware.30_11_2022.csv matches pattern2
+2024-03-24 23:36:38,012 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Belaware.30_11_2022.csv into DB
+2024-03-24 23:36:38,019 - INFO - Number of records loaded : 88 into DB
+2024-03-24 23:36:38,020 - INFO - Splitting the filename: Fund Whitestone.31-07-2023 - details.csv to extract FundName and Date
+2024-03-24 23:36:38,021 - INFO - Filename: Fund Whitestone.31-07-2023 - details.csv 2023-07-31 matches pattern1
+2024-03-24 23:36:38,021 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Fund Whitestone.31-07-2023 - details.csv into DB
+2024-03-24 23:36:38,028 - INFO - Number of records loaded : 77 into DB
+2024-03-24 23:36:38,029 - INFO - Splitting the filename: rpt-Catalysm.2023-05-31.csv to extract FundName and Date
+2024-03-24 23:36:38,029 - INFO - Filename: rpt-Catalysm.2023-05-31.csv matches pattern3
+2024-03-24 23:36:38,030 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/rpt-Catalysm.2023-05-31.csv into DB
+2024-03-24 23:36:38,037 - INFO - Number of records loaded : 82 into DB
+2024-03-24 23:36:38,039 - INFO - Splitting the filename: Magnum.31-05-2023.csv to extract FundName and Date
+2024-03-24 23:36:38,039 - INFO - Filename: Magnum.31-05-2023.csv 2023-05-31 matches pattern1
+2024-03-24 23:36:38,040 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Magnum.31-05-2023.csv into DB
+2024-03-24 23:36:38,048 - INFO - Number of records loaded : 87 into DB
+2024-03-24 23:36:38,049 - INFO - Splitting the filename: Report-of-Gohen.03-31-2023.csv to extract FundName and Date
+2024-03-24 23:36:38,049 - INFO - Filename: Report-of-Gohen.03-31-2023.csv 2023-03-31 matches pattern1
+2024-03-24 23:36:38,050 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Report-of-Gohen.03-31-2023.csv into DB
+2024-03-24 23:36:38,056 - INFO - Number of records loaded : 71 into DB
+2024-03-24 23:36:38,058 - INFO - Splitting the filename: TT_monthly_Trustmind.20230331.csv to extract FundName and Date
+2024-03-24 23:36:38,058 - INFO - Filename: TT_monthly_Trustmind.20230331.csv matches pattern4
+2024-03-24 23:36:38,059 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/TT_monthly_Trustmind.20230331.csv into DB
+2024-03-24 23:36:38,067 - INFO - Number of records loaded : 75 into DB
+2024-03-24 23:36:38,068 - INFO - Splitting the filename: mend-report Wallington.31_10_2022.csv to extract FundName and Date
+2024-03-24 23:36:38,069 - INFO - Filename: mend-report Wallington.31_10_2022.csv matches pattern2
+2024-03-24 23:36:38,069 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/mend-report Wallington.31_10_2022.csv into DB
+2024-03-24 23:36:38,100 - INFO - Number of records loaded : 76 into DB
+2024-03-24 23:36:38,103 - INFO - Splitting the filename: Magnum.30-06-2023.csv to extract FundName and Date
+2024-03-24 23:36:38,103 - INFO - Filename: Magnum.30-06-2023.csv 2023-06-30 matches pattern1
+2024-03-24 23:36:38,104 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Magnum.30-06-2023.csv into DB
+2024-03-24 23:36:38,112 - INFO - Number of records loaded : 87 into DB
+2024-03-24 23:36:38,114 - INFO - Splitting the filename: Leeder.12_31_2022.csv to extract FundName and Date
+2024-03-24 23:36:38,115 - INFO - Filename: Leeder.12_31_2022.csv matches pattern2
+2024-03-24 23:36:38,115 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Leeder.12_31_2022.csv into DB
+2024-03-24 23:36:38,123 - INFO - Number of records loaded : 87 into DB
+2024-03-24 23:36:38,125 - INFO - Splitting the filename: Belaware.31_01_2023.csv to extract FundName and Date
+2024-03-24 23:36:38,125 - INFO - Filename: Belaware.31_01_2023.csv matches pattern2
+2024-03-24 23:36:38,125 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Belaware.31_01_2023.csv into DB
+2024-03-24 23:36:38,133 - INFO - Number of records loaded : 88 into DB
+2024-03-24 23:36:38,134 - INFO - Splitting the filename: rpt-Catalysm.2022-11-30.csv to extract FundName and Date
+2024-03-24 23:36:38,135 - INFO - Filename: rpt-Catalysm.2022-11-30.csv matches pattern3
+2024-03-24 23:36:38,135 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/rpt-Catalysm.2022-11-30.csv into DB
+2024-03-24 23:36:38,142 - INFO - Number of records loaded : 82 into DB
+2024-03-24 23:36:38,144 - INFO - Splitting the filename: TT_monthly_Trustmind.20230131.csv to extract FundName and Date
+2024-03-24 23:36:38,144 - INFO - Filename: TT_monthly_Trustmind.20230131.csv matches pattern4
+2024-03-24 23:36:38,145 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/TT_monthly_Trustmind.20230131.csv into DB
+2024-03-24 23:36:38,152 - INFO - Number of records loaded : 75 into DB
+2024-03-24 23:36:38,153 - INFO - Splitting the filename: Applebead.31-07-2023 breakdown.csv to extract FundName and Date
+2024-03-24 23:36:38,153 - INFO - Filename: Applebead.31-07-2023 breakdown.csv 2023-07-31 matches pattern1
+2024-03-24 23:36:38,154 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Applebead.31-07-2023 breakdown.csv into DB
+2024-03-24 23:36:38,161 - INFO - Number of records loaded : 79 into DB
+2024-03-24 23:36:38,162 - INFO - Splitting the filename: Applebead.30-11-2022 breakdown.csv to extract FundName and Date
+2024-03-24 23:36:38,162 - INFO - Filename: Applebead.30-11-2022 breakdown.csv 2022-11-30 matches pattern1
+2024-03-24 23:36:38,163 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Applebead.30-11-2022 breakdown.csv into DB
+2024-03-24 23:36:38,170 - INFO - Number of records loaded : 79 into DB
+2024-03-24 23:36:38,172 - INFO - Splitting the filename: Belaware.30_09_2022.csv to extract FundName and Date
+2024-03-24 23:36:38,172 - INFO - Filename: Belaware.30_09_2022.csv matches pattern2
+2024-03-24 23:36:38,172 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Belaware.30_09_2022.csv into DB
+2024-03-24 23:36:38,180 - INFO - Number of records loaded : 88 into DB
+2024-03-24 23:36:38,182 - INFO - Splitting the filename: Leeder.07_31_2023.csv to extract FundName and Date
+2024-03-24 23:36:38,182 - INFO - Filename: Leeder.07_31_2023.csv matches pattern2
+2024-03-24 23:36:38,183 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Leeder.07_31_2023.csv into DB
+2024-03-24 23:36:38,190 - INFO - Number of records loaded : 87 into DB
+2024-03-24 23:36:38,191 - INFO - Splitting the filename: Magnum.30-11-2022.csv to extract FundName and Date
+2024-03-24 23:36:38,191 - INFO - Filename: Magnum.30-11-2022.csv 2022-11-30 matches pattern1
+2024-03-24 23:36:38,192 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Magnum.30-11-2022.csv into DB
+2024-03-24 23:36:38,200 - INFO - Number of records loaded : 87 into DB
+2024-03-24 23:36:38,202 - INFO - Splitting the filename: TT_monthly_Trustmind.20230531.csv to extract FundName and Date
+2024-03-24 23:36:38,202 - INFO - Filename: TT_monthly_Trustmind.20230531.csv matches pattern4
+2024-03-24 23:36:38,202 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/TT_monthly_Trustmind.20230531.csv into DB
+2024-03-24 23:36:38,209 - INFO - Number of records loaded : 75 into DB
+2024-03-24 23:36:38,211 - INFO - Splitting the filename: mend-report Wallington.30_04_2023.csv to extract FundName and Date
+2024-03-24 23:36:38,211 - INFO - Filename: mend-report Wallington.30_04_2023.csv matches pattern2
+2024-03-24 23:36:38,212 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/mend-report Wallington.30_04_2023.csv into DB
+2024-03-24 23:36:38,219 - INFO - Number of records loaded : 76 into DB
+2024-03-24 23:36:38,220 - INFO - Splitting the filename: Applebead.31-08-2022 breakdown.csv to extract FundName and Date
+2024-03-24 23:36:38,220 - INFO - Filename: Applebead.31-08-2022 breakdown.csv 2022-08-31 matches pattern1
+2024-03-24 23:36:38,221 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Applebead.31-08-2022 breakdown.csv into DB
+2024-03-24 23:36:38,228 - INFO - Number of records loaded : 79 into DB
+2024-03-24 23:36:38,230 - INFO - Splitting the filename: Magnum.31-12-2022.csv to extract FundName and Date
+2024-03-24 23:36:38,230 - INFO - Filename: Magnum.31-12-2022.csv 2022-12-31 matches pattern1
+2024-03-24 23:36:38,231 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Magnum.31-12-2022.csv into DB
+2024-03-24 23:36:38,238 - INFO - Number of records loaded : 87 into DB
+2024-03-24 23:36:38,240 - INFO - Splitting the filename: Fund Whitestone.31-05-2023 - details.csv to extract FundName and Date
+2024-03-24 23:36:38,240 - INFO - Filename: Fund Whitestone.31-05-2023 - details.csv 2023-05-31 matches pattern1
+2024-03-24 23:36:38,241 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Fund Whitestone.31-05-2023 - details.csv into DB
+2024-03-24 23:36:38,248 - INFO - Number of records loaded : 77 into DB
+2024-03-24 23:36:38,249 - INFO - Splitting the filename: Fund Whitestone.31-08-2023 - details.csv to extract FundName and Date
+2024-03-24 23:36:38,250 - INFO - Filename: Fund Whitestone.31-08-2023 - details.csv 2023-08-31 matches pattern1
+2024-03-24 23:36:38,250 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Fund Whitestone.31-08-2023 - details.csv into DB
+2024-03-24 23:36:38,257 - INFO - Number of records loaded : 77 into DB
+2024-03-24 23:36:38,259 - INFO - Splitting the filename: mend-report Wallington.31_07_2023.csv to extract FundName and Date
+2024-03-24 23:36:38,259 - INFO - Filename: mend-report Wallington.31_07_2023.csv matches pattern2
+2024-03-24 23:36:38,260 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/mend-report Wallington.31_07_2023.csv into DB
+2024-03-24 23:36:38,267 - INFO - Number of records loaded : 76 into DB
+2024-03-24 23:36:38,268 - INFO - Splitting the filename: Report-of-Gohen.06-30-2023.csv to extract FundName and Date
+2024-03-24 23:36:38,268 - INFO - Filename: Report-of-Gohen.06-30-2023.csv 2023-06-30 matches pattern1
+2024-03-24 23:36:38,269 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Report-of-Gohen.06-30-2023.csv into DB
+2024-03-24 23:36:38,276 - INFO - Number of records loaded : 71 into DB
+2024-03-24 23:36:38,277 - INFO - Splitting the filename: rpt-Catalysm.2023-07-31.csv to extract FundName and Date
+2024-03-24 23:36:38,277 - INFO - Filename: rpt-Catalysm.2023-07-31.csv matches pattern3
+2024-03-24 23:36:38,278 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/rpt-Catalysm.2023-07-31.csv into DB
+2024-03-24 23:36:38,285 - INFO - Number of records loaded : 82 into DB
+2024-03-24 23:36:38,287 - INFO - Splitting the filename: rpt-Catalysm.2023-02-28.csv to extract FundName and Date
+2024-03-24 23:36:38,287 - INFO - Filename: rpt-Catalysm.2023-02-28.csv matches pattern3
+2024-03-24 23:36:38,288 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/rpt-Catalysm.2023-02-28.csv into DB
+2024-03-24 23:36:38,295 - INFO - Number of records loaded : 82 into DB
+2024-03-24 23:36:38,296 - INFO - Splitting the filename: TT_monthly_Trustmind.20230731.csv to extract FundName and Date
+2024-03-24 23:36:38,296 - INFO - Filename: TT_monthly_Trustmind.20230731.csv matches pattern4
+2024-03-24 23:36:38,297 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/TT_monthly_Trustmind.20230731.csv into DB
+2024-03-24 23:36:38,304 - INFO - Number of records loaded : 75 into DB
+2024-03-24 23:36:38,306 - INFO - Splitting the filename: Virtous.10-31-2022 - securities.csv to extract FundName and Date
+2024-03-24 23:36:38,306 - INFO - Filename: Virtous.10-31-2022 - securities.csv 2022-10-31 matches pattern1
+2024-03-24 23:36:38,306 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Virtous.10-31-2022 - securities.csv into DB
+2024-03-24 23:36:38,313 - INFO - Number of records loaded : 71 into DB
+2024-03-24 23:36:38,315 - INFO - Splitting the filename: Virtous.03-31-2023 - securities.csv to extract FundName and Date
+2024-03-24 23:36:38,315 - INFO - Filename: Virtous.03-31-2023 - securities.csv 2023-03-31 matches pattern1
+2024-03-24 23:36:38,316 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Virtous.03-31-2023 - securities.csv into DB
+2024-03-24 23:36:38,322 - INFO - Number of records loaded : 71 into DB
+2024-03-24 23:36:38,324 - INFO - Splitting the filename: Belaware.31_10_2022.csv to extract FundName and Date
+2024-03-24 23:36:38,324 - INFO - Filename: Belaware.31_10_2022.csv matches pattern2
+2024-03-24 23:36:38,324 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Belaware.31_10_2022.csv into DB
+2024-03-24 23:36:38,332 - INFO - Number of records loaded : 88 into DB
+2024-03-24 23:36:38,333 - INFO - Splitting the filename: Leeder.08_31_2023.csv to extract FundName and Date
+2024-03-24 23:36:38,333 - INFO - Filename: Leeder.08_31_2023.csv matches pattern2
+2024-03-24 23:36:38,334 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Leeder.08_31_2023.csv into DB
+2024-03-24 23:36:38,342 - INFO - Number of records loaded : 87 into DB
+2024-03-24 23:36:38,344 - INFO - Splitting the filename: Leeder.08_31_2022.csv to extract FundName and Date
+2024-03-24 23:36:38,344 - INFO - Filename: Leeder.08_31_2022.csv matches pattern2
+2024-03-24 23:36:38,345 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Leeder.08_31_2022.csv into DB
+2024-03-24 23:36:38,352 - INFO - Number of records loaded : 87 into DB
+2024-03-24 23:36:38,354 - INFO - Splitting the filename: Report-of-Gohen.05-31-2023.csv to extract FundName and Date
+2024-03-24 23:36:38,354 - INFO - Filename: Report-of-Gohen.05-31-2023.csv 2023-05-31 matches pattern1
+2024-03-24 23:36:38,355 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Report-of-Gohen.05-31-2023.csv into DB
+2024-03-24 23:36:38,361 - INFO - Number of records loaded : 71 into DB
+2024-03-24 23:36:38,363 - INFO - Splitting the filename: Virtous.07-31-2023 - securities.csv to extract FundName and Date
+2024-03-24 23:36:38,363 - INFO - Filename: Virtous.07-31-2023 - securities.csv 2023-07-31 matches pattern1
+2024-03-24 23:36:38,363 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Virtous.07-31-2023 - securities.csv into DB
+2024-03-24 23:36:38,370 - INFO - Number of records loaded : 71 into DB
+2024-03-24 23:36:38,372 - INFO - Splitting the filename: mend-report Wallington.31_01_2023.csv to extract FundName and Date
+2024-03-24 23:36:38,372 - INFO - Filename: mend-report Wallington.31_01_2023.csv matches pattern2
+2024-03-24 23:36:38,373 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/mend-report Wallington.31_01_2023.csv into DB
+2024-03-24 23:36:38,379 - INFO - Number of records loaded : 76 into DB
+2024-03-24 23:36:38,381 - INFO - Splitting the filename: Fund Whitestone.28-02-2023 - details.csv to extract FundName and Date
+2024-03-24 23:36:38,381 - INFO - Filename: Fund Whitestone.28-02-2023 - details.csv 2023-02-28 matches pattern1
+2024-03-24 23:36:38,382 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Fund Whitestone.28-02-2023 - details.csv into DB
+2024-03-24 23:36:38,389 - INFO - Number of records loaded : 77 into DB
+2024-03-24 23:36:38,390 - INFO - Splitting the filename: rpt-Catalysm.2022-09-30.csv to extract FundName and Date
+2024-03-24 23:36:38,390 - INFO - Filename: rpt-Catalysm.2022-09-30.csv matches pattern3
+2024-03-24 23:36:38,391 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/rpt-Catalysm.2022-09-30.csv into DB
+2024-03-24 23:36:38,398 - INFO - Number of records loaded : 82 into DB
+2024-03-24 23:36:38,400 - INFO - Splitting the filename: Fund Whitestone.30-04-2023 - details.csv to extract FundName and Date
+2024-03-24 23:36:38,400 - INFO - Filename: Fund Whitestone.30-04-2023 - details.csv 2023-04-30 matches pattern1
+2024-03-24 23:36:38,401 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Fund Whitestone.30-04-2023 - details.csv into DB
+2024-03-24 23:36:38,408 - INFO - Number of records loaded : 77 into DB
+2024-03-24 23:36:38,409 - INFO - Splitting the filename: Virtous.09-30-2022 - securities.csv to extract FundName and Date
+2024-03-24 23:36:38,409 - INFO - Filename: Virtous.09-30-2022 - securities.csv 2022-09-30 matches pattern1
+2024-03-24 23:36:38,410 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Virtous.09-30-2022 - securities.csv into DB
+2024-03-24 23:36:38,416 - INFO - Number of records loaded : 71 into DB
+2024-03-24 23:36:38,418 - INFO - Splitting the filename: Leeder.01_31_2023.csv to extract FundName and Date
+2024-03-24 23:36:38,418 - INFO - Filename: Leeder.01_31_2023.csv matches pattern2
+2024-03-24 23:36:38,419 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Leeder.01_31_2023.csv into DB
+2024-03-24 23:36:38,426 - INFO - Number of records loaded : 87 into DB
+2024-03-24 23:36:38,427 - INFO - Splitting the filename: Fund Whitestone.31-12-2022 - details.csv to extract FundName and Date
+2024-03-24 23:36:38,427 - INFO - Filename: Fund Whitestone.31-12-2022 - details.csv 2022-12-31 matches pattern1
+2024-03-24 23:36:38,428 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Fund Whitestone.31-12-2022 - details.csv into DB
+2024-03-24 23:36:38,435 - INFO - Number of records loaded : 77 into DB
+2024-03-24 23:36:38,436 - INFO - Splitting the filename: Magnum.28-02-2023.csv to extract FundName and Date
+2024-03-24 23:36:38,436 - INFO - Filename: Magnum.28-02-2023.csv 2023-02-28 matches pattern1
+2024-03-24 23:36:38,437 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Magnum.28-02-2023.csv into DB
+2024-03-24 23:36:38,446 - INFO - Number of records loaded : 87 into DB
+2024-03-24 23:36:38,448 - INFO - Splitting the filename: rpt-Catalysm.2023-03-31.csv to extract FundName and Date
+2024-03-24 23:36:38,448 - INFO - Filename: rpt-Catalysm.2023-03-31.csv matches pattern3
+2024-03-24 23:36:38,449 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/rpt-Catalysm.2023-03-31.csv into DB
+2024-03-24 23:36:38,456 - INFO - Number of records loaded : 82 into DB
+2024-03-24 23:36:38,457 - INFO - Splitting the filename: Fund Whitestone.31-03-2023 - details.csv to extract FundName and Date
+2024-03-24 23:36:38,458 - INFO - Filename: Fund Whitestone.31-03-2023 - details.csv 2023-03-31 matches pattern1
+2024-03-24 23:36:38,458 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Fund Whitestone.31-03-2023 - details.csv into DB
+2024-03-24 23:36:38,465 - INFO - Number of records loaded : 77 into DB
+2024-03-24 23:36:38,467 - INFO - Splitting the filename: Report-of-Gohen.02-28-2023.csv to extract FundName and Date
+2024-03-24 23:36:38,467 - INFO - Filename: Report-of-Gohen.02-28-2023.csv 2023-02-28 matches pattern1
+2024-03-24 23:36:38,467 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Report-of-Gohen.02-28-2023.csv into DB
+2024-03-24 23:36:38,474 - INFO - Number of records loaded : 71 into DB
+2024-03-24 23:36:38,476 - INFO - Splitting the filename: Report-of-Gohen.10-31-2022.csv to extract FundName and Date
+2024-03-24 23:36:38,476 - INFO - Filename: Report-of-Gohen.10-31-2022.csv 2022-10-31 matches pattern1
+2024-03-24 23:36:38,476 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Report-of-Gohen.10-31-2022.csv into DB
+2024-03-24 23:36:38,483 - INFO - Number of records loaded : 71 into DB
+2024-03-24 23:36:38,485 - INFO - Splitting the filename: Applebead.30-09-2022 breakdown.csv to extract FundName and Date
+2024-03-24 23:36:38,485 - INFO - Filename: Applebead.30-09-2022 breakdown.csv 2022-09-30 matches pattern1
+2024-03-24 23:36:38,485 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Applebead.30-09-2022 breakdown.csv into DB
+2024-03-24 23:36:38,492 - INFO - Number of records loaded : 79 into DB
+2024-03-24 23:36:38,494 - INFO - Splitting the filename: mend-report Wallington.30_09_2022.csv to extract FundName and Date
+2024-03-24 23:36:38,494 - INFO - Filename: mend-report Wallington.30_09_2022.csv matches pattern2
+2024-03-24 23:36:38,495 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/mend-report Wallington.30_09_2022.csv into DB
+2024-03-24 23:36:38,502 - INFO - Number of records loaded : 76 into DB
+2024-03-24 23:36:38,503 - INFO - Splitting the filename: Applebead.31-10-2022 breakdown.csv to extract FundName and Date
+2024-03-24 23:36:38,503 - INFO - Filename: Applebead.31-10-2022 breakdown.csv 2022-10-31 matches pattern1
+2024-03-24 23:36:38,504 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Applebead.31-10-2022 breakdown.csv into DB
+2024-03-24 23:36:38,511 - INFO - Number of records loaded : 79 into DB
+2024-03-24 23:36:38,512 - INFO - Splitting the filename: Magnum.31-03-2023.csv to extract FundName and Date
+2024-03-24 23:36:38,513 - INFO - Filename: Magnum.31-03-2023.csv 2023-03-31 matches pattern1
+2024-03-24 23:36:38,513 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Magnum.31-03-2023.csv into DB
+2024-03-24 23:36:38,520 - INFO - Number of records loaded : 87 into DB
+2024-03-24 23:36:38,522 - INFO - Splitting the filename: Report-of-Gohen.09-30-2022.csv to extract FundName and Date
+2024-03-24 23:36:38,522 - INFO - Filename: Report-of-Gohen.09-30-2022.csv 2022-09-30 matches pattern1
+2024-03-24 23:36:38,523 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Report-of-Gohen.09-30-2022.csv into DB
+2024-03-24 23:36:38,529 - INFO - Number of records loaded : 71 into DB
+2024-03-24 23:36:38,531 - INFO - Splitting the filename: Leeder.04_30_2023.csv to extract FundName and Date
+2024-03-24 23:36:38,531 - INFO - Filename: Leeder.04_30_2023.csv matches pattern2
+2024-03-24 23:36:38,532 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Leeder.04_30_2023.csv into DB
+2024-03-24 23:36:38,539 - INFO - Number of records loaded : 87 into DB
+2024-03-24 23:36:38,541 - INFO - Splitting the filename: Applebead.30-06-2023 breakdown.csv to extract FundName and Date
+2024-03-24 23:36:38,541 - INFO - Filename: Applebead.30-06-2023 breakdown.csv 2023-06-30 matches pattern1
+2024-03-24 23:36:38,541 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Applebead.30-06-2023 breakdown.csv into DB
+2024-03-24 23:36:38,549 - INFO - Number of records loaded : 79 into DB
+2024-03-24 23:36:38,551 - INFO - Splitting the filename: TT_monthly_Trustmind.20230630.csv to extract FundName and Date
+2024-03-24 23:36:38,551 - INFO - Filename: TT_monthly_Trustmind.20230630.csv matches pattern4
+2024-03-24 23:36:38,551 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/TT_monthly_Trustmind.20230630.csv into DB
+2024-03-24 23:36:38,558 - INFO - Number of records loaded : 75 into DB
+2024-03-24 23:36:38,560 - INFO - Splitting the filename: Belaware.30_04_2023.csv to extract FundName and Date
+2024-03-24 23:36:38,560 - INFO - Filename: Belaware.30_04_2023.csv matches pattern2
+2024-03-24 23:36:38,561 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Belaware.30_04_2023.csv into DB
+2024-03-24 23:36:38,569 - INFO - Number of records loaded : 88 into DB
+2024-03-24 23:36:38,571 - INFO - Splitting the filename: Virtous.04-30-2023 - securities.csv to extract FundName and Date
+2024-03-24 23:36:38,571 - INFO - Filename: Virtous.04-30-2023 - securities.csv 2023-04-30 matches pattern1
+2024-03-24 23:36:38,571 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Virtous.04-30-2023 - securities.csv into DB
+2024-03-24 23:36:38,578 - INFO - Number of records loaded : 71 into DB
+2024-03-24 23:36:38,579 - INFO - Splitting the filename: Applebead.31-01-2023 breakdown.csv to extract FundName and Date
+2024-03-24 23:36:38,579 - INFO - Filename: Applebead.31-01-2023 breakdown.csv 2023-01-31 matches pattern1
+2024-03-24 23:36:38,580 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Applebead.31-01-2023 breakdown.csv into DB
+2024-03-24 23:36:38,587 - INFO - Number of records loaded : 79 into DB
+2024-03-24 23:36:38,588 - INFO - Splitting the filename: Belaware.31_07_2023.csv to extract FundName and Date
+2024-03-24 23:36:38,588 - INFO - Filename: Belaware.31_07_2023.csv matches pattern2
+2024-03-24 23:36:38,589 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Belaware.31_07_2023.csv into DB
+2024-03-24 23:36:38,596 - INFO - Number of records loaded : 88 into DB
+2024-03-24 23:36:38,598 - INFO - Splitting the filename: rpt-Catalysm.2023-01-31.csv to extract FundName and Date
+2024-03-24 23:36:38,598 - INFO - Filename: rpt-Catalysm.2023-01-31.csv matches pattern3
+2024-03-24 23:36:38,599 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/rpt-Catalysm.2023-01-31.csv into DB
+2024-03-24 23:36:38,606 - INFO - Number of records loaded : 82 into DB
+2024-03-24 23:36:38,607 - INFO - Splitting the filename: Leeder.11_30_2022.csv to extract FundName and Date
+2024-03-24 23:36:38,607 - INFO - Filename: Leeder.11_30_2022.csv matches pattern2
+2024-03-24 23:36:38,608 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Leeder.11_30_2022.csv into DB
+2024-03-24 23:36:38,615 - INFO - Number of records loaded : 87 into DB
+2024-03-24 23:36:38,617 - INFO - Splitting the filename: Magnum.31-08-2023.csv to extract FundName and Date
+2024-03-24 23:36:38,617 - INFO - Filename: Magnum.31-08-2023.csv 2023-08-31 matches pattern1
+2024-03-24 23:36:38,618 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Magnum.31-08-2023.csv into DB
+2024-03-24 23:36:38,625 - INFO - Number of records loaded : 87 into DB
+2024-03-24 23:36:38,627 - INFO - Splitting the filename: Magnum.31-08-2022.csv to extract FundName and Date
+2024-03-24 23:36:38,627 - INFO - Filename: Magnum.31-08-2022.csv 2022-08-31 matches pattern1
+2024-03-24 23:36:38,628 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/Magnum.31-08-2022.csv into DB
+2024-03-24 23:36:38,635 - INFO - Number of records loaded : 87 into DB
+2024-03-24 23:36:38,637 - INFO - Splitting the filename: TT_monthly_Trustmind.20230430.csv to extract FundName and Date
+2024-03-24 23:36:38,637 - INFO - Filename: TT_monthly_Trustmind.20230430.csv matches pattern4
+2024-03-24 23:36:38,638 - INFO - Loading /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/TT_monthly_Trustmind.20230430.csv into DB
+2024-03-24 23:36:38,645 - INFO - Number of records loaded : 75 into DB
+2024-03-24 23:36:38,648 - INFO - View exists in the database.
+2024-03-24 23:36:38,648 - INFO - Recon data view created/refreshed
+2024-03-24 23:36:38,649 - INFO - View exists in the database.
+2024-03-24 23:36:38,649 - INFO - Equities Report data view created/refreshed
+2024-03-24 23:36:39,742 - INFO - Report data extracted

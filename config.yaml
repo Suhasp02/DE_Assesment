@@ -1,0 +1,129 @@
+#Information related to Postgres DB connection
+db:
+  dbname : 'gic_mrkts'
+  user : 'postgres'
+  password : 'DE_Gic%402024'
+  host : 'localhost'
+  port : 5432
+
+# Please mention the path where all the fund files are saved
+data_path: /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/
+
+rep_path: /Users/kumkumbiswal/Desktop/Suhas/GIC/DE_Assesment/Report
+
+recon_report_cols:
+  - financial_type
+  - fund_nm
+  - file_dt
+  - instrument_price
+  - reference_price
+  - price_diff
+
+best_fund_report_cols:
+  - financial_type
+  - file_dt
+  - fund_nm
+  - best_fund_of_month
+  - cumulative_p_l
+
+# Column mapping name for table creation
+column_mapping:
+  - financial_type
+  - symbol
+  - security_name
+  - sedol_isin
+  - price
+  - quantity
+  - realised_p_l
+  - market_value
+
+# table_ddl
+table_nm: investment_funds
+
+# DDL for table creation
+ddl: CREATE TABLE IF NOT EXISTS public.investment_funds (
+    financial_type character varying(255),
+    symbol character varying(255),
+    security_name character varying(255),
+    sedol_isin character varying(255),
+    price numeric(25,10),
+    quantity numeric(25,10),
+    realised_p_l numeric(25,10),
+    market_value numeric(25,10),
+    fund_nm character varying(255),
+    file_nm character varying(255),
+    file_dt character varying(25));
+
+# View name
+recon_view_name: v_equities_bond_price_recon
+
+# View to generate price recon report to show the difference between
+# the price on EOM from ref data v/s price in fund
+recon_view: CREATE OR REPLACE VIEW v_equities_bond_price_recon AS select  financial_type, fund_nm,CAST(funds.file_dt AS date),sum(instrument_price) instrument_price, sum(REFERENCE_PRICE) reference_price,SUM( CAST(instrument_price  - REFERENCE_PRICE AS   DECIMAL(10,5))) PRICE_DIFF
+  from 
+  ( SELECT financial_type, symbol, security_name, price as instrument_price, fund_nm, file_dt
+  FROM
+  public.investment_funds WHERE financial_type='Equities'
+  )funds
+  LEFT JOIN (SELECT eref."SYMBOL", "COUNTRY", "SECURITY NAME", "SECTOR", "INDUSTRY", "CURRENCY" , CAST("DATETIME" AS date) AS DATETIME, "PRICE" as REFERENCE_PRICE
+  FROM public.equity_reference eref
+  INNER JOIN 
+  public.equity_prices ep
+  ON eref."SYMBOL"=ep."SYMBOL"
+  WHERE CAST("DATETIME" AS date)= CAST(date_trunc('month', CAST("DATETIME" AS date)) + interval '1 month - 1 day'   as date)) ref
+  on funds.security_name=ref."SECURITY NAME" and funds.symbol=ref."SYMBOL" AND CAST(funds.file_dt AS date)=ref.DATETIME
+  GROUP BY 1,2,3
+  UNION
+  Select financial_type, fund_nm, CAST(file_dt AS date),sum(instrument_price) instrument_price, sum(REFERENCE_PRICE) reference_price, sum(CAST(instrument_price  - REFERENCE_PRICE AS   DECIMAL(10,5))) PRICE_DIFF
+  from 
+  (select "SECURITY NAME", bref."ISIN", "DATETIME", "PRICE" as REFERENCE_PRICE, month ,max_date
+  FROM 
+  public.bond_reference bref 
+  INNER JOIN 
+  public.bond_prices bp
+  ON bref."ISIN"=bp."ISIN"
+  INNER JOIN 
+  (  select to_char(date_trunc('month', CAST("DATETIME" AS date )) , 'YYYY-MM') AS month, max(CAST("DATETIME" AS date)) AS max_date
+  from public.bond_prices 
+  group by 1 ) EOM_DT
+  ON CAST(bp."DATETIME" AS date)=EOM_DT.max_date
+  ) bonref
+  INNER JOIN (SELECT financial_type, symbol, security_name, price as instrument_price, fund_nm, file_dt ,to_char(date_trunc('month', CAST(file_dt AS date )), 'YYYY-MM') AS month
+  FROM
+  public.investment_funds
+  WHERE financial_type='Government Bond'
+  ) invfund
+  ON bonref."SECURITY NAME"=invfund.security_name and  bonref."ISIN"=invfund.symbol and bonref.month =invfund.month
+  group by 1,2,3 ;
+
+# Equity report name
+report_name: v_best_perf_equities_report
+# Report to show cumulative profit and loss
+report_view: CREATE OR REPLACE VIEW v_best_perf_equities_report AS
+ select 
+ financial_type,
+ file_dt,
+ cumulative.fund_nm,
+ realised_p_l as best_fund_of_month, 
+ cumulative_net as cumulative_p_l
+ from 
+ (WITH cte AS (
+ SELECT fund_nm, file_dt, to_char(date_trunc('month', CAST(file_dt AS date )) , 'YYYY-MM') AS month, SUM(CASE WHEN realised_p_l > 0 THEN realised_p_l ELSE 0 END) AS total_profit, SUM(CASE WHEN realised_p_l < 0 THEN realised_p_l ELSE 0 END) AS total_loss,
+ SUM(realised_p_l) AS profit_or_loss
+ FROM public.investment_funds
+ WHERE financial_type='Equities'
+ GROUP BY 1,2,3
+ ORDER BY 1,2)
+ SELECT fund_nm, month, SUM(total_profit) OVER (PARTITION BY fund_nm ORDER BY month ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS cumulative_profit, SUM(total_loss) OVER (PARTITION BY fund_nm ORDER BY month ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS cumulative_loss,
+ SUM(profit_or_loss) OVER (PARTITION BY fund_nm  ORDER BY month ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS cumulative_net
+ FROM cte ) cumulative
+ INNER JOIN
+ (SELECT * FROM 
+ (SELECT financial_type, fund_nm, file_dt, SUM(realised_p_l) realised_p_l,RANK() OVER (PARTITION BY file_dt ORDER BY SUM(realised_p_l) DESC ) RNK,to_char(date_trunc('month', CAST(file_dt AS date )) , 'YYYY-MM') AS month
+ FROM public.investment_funds
+ WHERE financial_type='Equities'
+ GROUP BY 1,2,3) TEMP
+ WHERE RNK=1) mnt_top_fund
+ on 
+ cumulative.fund_nm=mnt_top_fund.fund_nm and cumulative.month=mnt_top_fund.month
+ order by cumulative.month;
