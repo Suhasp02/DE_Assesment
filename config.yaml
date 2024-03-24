@@ -9,7 +9,7 @@ db:
 # Please mention the path where all the fund files are saved
 data_path: /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/
 
-rep_path: /Users/kumkumbiswal/Desktop/Suhas/GIC/DE_Assesment/Report
+rep_path: /Users/kumkumbiswal/Desktop/Suhas/GIC/DE_Assesment/Report/
 
 recon_report_cols:
   - financial_type
