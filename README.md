@@ -12,9 +12,13 @@ project_root/ │ ├── / │ ├── init.py │ ├──fund_analysis.p
 
 Under directory : DE_Assessment
 fund_analysis.py is the main script. 
+
 modules.py has utility modules using in fund analysis and test cases.
+
 setup.py is to setup the env for executing the entire analysis.
+
 config.yaml is the configuration yaml file. 
+
 TestScriptFunctions.py : This is the script which has the test cases written to test the analyis
 
 
