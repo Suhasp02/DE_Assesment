@@ -31,4 +31,4 @@ recon_report.csv
 
 How to run testcases?
 
-Go to root directory and run python -m unittest ./tests/TestScriptFunctions.py 
+Go to root directory and run python TestScriptFunctions.py 
