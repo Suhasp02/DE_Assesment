@@ -7,7 +7,7 @@ Before installing the Data Processing Script, please make sure you have setuptoo
 Please use following command to run setup python setup.py install at root directory.
 
 Project Structure:
-project_root/ │ ├── / │ ├── init.py │ ├──fund_analysis.py │ │ ├──modules.py │└── │ └── tests/ ├── init.py └── TestScriptFunctions.py
+project_root/ │ ├── / │ ├── init.py │ ├──fund_analysis.py │ │ ├──modules.py │└── │ └── TestScriptFunctions.py
 
 
 Under directory : DE_Assessment
@@ -31,4 +31,4 @@ recon_report.csv
 
 How to run testcases?
 
-Go to root directory and run python -m unittest ./tests/TestScriptFunctions.py 
+Go to root directory and run python TestScriptFunctions.py 
