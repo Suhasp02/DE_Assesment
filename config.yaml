@@ -1,15 +1,16 @@
+
 #Information related to Postgres DB connection
 db:
   dbname : 'gic_mrkts'
   user : 'postgres'
-  password : 'DE_Gic%402024'
+  password : '' #Enter password
   host : 'localhost'
   port : 5432
 
 # Please mention the path where all the fund files are saved
-data_path: /Users/kumkumbiswal/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/
+data_path: /Users/Desktop/Suhas/GIC/Dataset 1/Dataset/external-funds/
 
-rep_path: /Users/kumkumbiswal/Desktop/Suhas/GIC/DE_Assesment/Report/
+rep_path: /Users/Desktop/Suhas/GIC/DE_Assesment/Report/
 
 recon_report_cols:
   - financial_type
@@ -127,3 +128,5 @@ report_view: CREATE OR REPLACE VIEW v_best_perf_equities_report AS
  on 
  cumulative.fund_nm=mnt_top_fund.fund_nm and cumulative.month=mnt_top_fund.month
  order by cumulative.month;
+
+rec_count: 10309
